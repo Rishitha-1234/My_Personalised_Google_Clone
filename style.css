@@ -1,0 +1,404 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color:rgba(0, 0, 0, 0.845);
+    height: 6.5vh;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: right;
+    /* position:static; */
+}
+.bookmarks{
+    display: flex;
+    
+}
+.bookmarks div{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icon{
+    font-size: 1em;
+    /* font-weight: 100; */
+    color: rgb(245, 245, 245);
+    
+}
+
+.text
+{
+    font-size: 1em;
+}
+.nav-dash{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1em;
+    font-weight: 900;
+    /* padding:1rem; */
+
+}
+
+.below-nav{
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    color:white;
+}
+
+.profile-img{
+    /* height: rem; */
+    height: 2.5em;
+    border-radius: 50%;
+
+}
+
+.hero-image{
+    background-image:url(hero_img.jpg);
+    
+    
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+}
+.hero-image-shade{
+    background-color: black;
+    z-index: 1;
+    height: 95vh;
+    opacity: 0.75;
+}
+
+.below-nav div{
+    margin-left: 2rem;
+    z-index: 5;
+}
+
+.five{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+/* main */
+
+.main-name
+{
+    color: white;
+    font-weight: 500;
+    font-size: 6rem;
+    z-index: 5;
+}
+
+.google-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.search-bar{
+    width:40vw;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: space-evenly;
+}
+
+.mag-glass{
+    color: black;
+    padding: 0.5rem;
+    font-size: 1.2em;
+}
+.placeholder{
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: 900;
+    padding: 0.5rem;
+    width: 90%;
+    /* height: 100%; */
+}
+.lens
+{
+    color:black;
+    padding: 0.5rem;
+    font-size: 1.2em;
+}
+.mic{
+    color: black;
+    padding: 0.5rem;
+    font-size: 1.2em;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three
+{
+    width: 100%;
+    height:100%;
+    border: none;
+    color: black;
+    z-index: 20;
+}
+
+
+
+/* icons */
+
+.icn-bdr{
+    height:4em;
+    width:4em;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.mail-icon
+{
+    background-image: url(Gmail_Logo_512px.png);
+    height:2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.75rem;
+    /* position: relative; */
+
+}
+.mail-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.txt{
+    color: white;
+    margin-top: 1rem;
+}
+
+.main{
+    
+    text-align: center;
+}
+.first-five-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-five-icons>div{
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    margin-top: 4rem;
+}
+
+.next-five-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.next-five-icons>div{
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    margin-top: 4rem;
+}
+
+.instagram-icon
+{
+    background-image: url(instagram.png);
+    height:2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+}
+
+.instagram-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.leetcode-icon
+{
+    background-image: url(leetcode.png);
+    height:2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.9rem;
+}
+
+.leetcode-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.codechef-icon
+{
+    background-image: url(codechef.png);
+    height:2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+
+.codechef-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.codeforces-icon
+{
+    background-image: url(codeforces.png);
+    height:2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+
+.codeforces-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.youtube-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+.youtube-icon
+{
+    background-image: url(youtube.png);
+    height:3rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+
+}
+
+
+
+.codingninjas-icon
+{
+    background-image: url(codingnijas.jpg);
+    height:2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+
+.codingninjas-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.geeksforgeeks-icon
+{
+    background-image: url(geeksforgeeks.png);
+    height:2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+
+.geeksforgeeks-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.hackerrank-icon
+{
+    background-image: url(hackerrank.png);
+    height:2.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+
+.hackerrank-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.iitherp-icon
+{
+    background-image: url(iithlogo.png);
+    height:3rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+}
+
+.iitherp-icon-border{
+    display: inline-block;
+    text-align: center;
+    /* position: absolute; */
+
+}
+
+.main{
+    background-color: black;
+    
+    
+}
+.main:hover{
+    background-color: rgba(0, 0, 0, 0.845);
+  
+    
+}
+
+
+
+.below-nav-gmail{
+    text-decoration: none;
+}
+.below-nav-gmail:hover{
+    text-decoration: underline;
+
+}
+.below-nav-images{
+    text-decoration: none;
+}
+.below-nav-images:hover{
+    text-decoration: underline;
+
+}
